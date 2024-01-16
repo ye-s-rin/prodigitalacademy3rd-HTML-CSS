@@ -164,9 +164,9 @@ header h1 em {
   background: linear-gradient(96deg, rgba(189, 210, 255, 0.40) 1.72%, rgba(116, 224, 215, 0.40) 158.93%);
 }
 .sectionDescription h1 {
-  display: flex;
+  /* display: flex;*/
   width: 1120px;
-  height: 300px;
+  height: 100px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
