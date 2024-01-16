@@ -1,0 +1,33 @@
+nav {
+  display: flex;
+  gap: 24px;
+}
+.navItem {
+  color: #594f43;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+}
+
+.badge {
+  border-radius: 10px;
+  background: #e5edff;
+  display: flex;
+  width: fit-content;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.badgeText {
+  color: #403930;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+}
+
+header {
+  padding: 20px 0px;
+}
