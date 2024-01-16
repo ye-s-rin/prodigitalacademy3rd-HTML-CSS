@@ -288,8 +288,8 @@ header h1 em {
 }
 .sectionProject {
   display: flex;
-  padding-left: 40px;
-  gap: 40px;
+  padding: 40px;
+  gap: 10px;
   align-self: stretch;
   flex-direction: column;
 
