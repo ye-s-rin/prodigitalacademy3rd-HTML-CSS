@@ -39,7 +39,7 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 150px;
+  gap: 300px;
 }
 
 .headerLeft {
@@ -149,4 +149,47 @@ header h1 em {
   border-radius: 500px;
   border: 10px solid #BCF2F9;
   background: url("./person.png"), lightgray 50% / cover no-repeat;
+}
+
+.sectionDescription {
+  display: flex;
+  width: 1366px;
+  height: 497px;
+  padding: 100px 120px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  background: linear-gradient(96deg, rgba(189, 210, 255, 0.40) 1.72%, rgba(116, 224, 215, 0.40) 158.93%);
+}
+.sectionDescription h1 {
+  display: flex;
+  width: 1120px;
+  height: 300px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-shrink: 0;
+
+  color: #000;
+  font-family: Pretendard;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 50px */
+  letter-spacing: -0.8px;
+}
+.sectionDescription h2 {
+  height: 172px;
+  flex-shrink: 0;
+  align-self: stretch;
+
+  color: #333;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 30px */
 }
