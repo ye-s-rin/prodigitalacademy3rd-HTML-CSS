@@ -33,11 +33,11 @@ nav {
 
 header {
   display: flex;
-  width: 1366px;
-  height: 662px;
+  /* width: 1366px;
+  height: 662px; */
   padding: 100px 120px;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 300px;
 }
@@ -148,8 +148,8 @@ header h1 em {
 
 .sectionDescription {
   display: flex;
-  width: 1366px;
-  height: 497px;
+  /* width: 1366px;
+  height: 497px; */
   padding: 100px 120px;
   flex-direction: column;
   justify-content: center;
@@ -231,8 +231,8 @@ header h1 em {
 
 .sectionTechStack {
   display: flex;
-  width: 1366px;
-  height: 666px;
+  /* width: 1366px;
+  height: 666px; */
   padding: 100px 120px;
   flex-direction: column;
   justify-content: center;
@@ -259,4 +259,68 @@ header h1 em {
   line-height: 26px; /* 130% */
 
   padding-bottom: 80px;
+}
+
+.sectionMyProject {
+  display: flex;
+  /* width: 1360px;
+  height: 1560px; */
+  padding: 80px 120px 120px 120px;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(244, 244, 244, 0.50);
+}
+.sectionProjectContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  flex: 1 0 0;
+}
+.sectionProjectContainer h1 {
+  color: #403930;
+  font-family: Pretendard;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 50px */
+  letter-spacing: -0.8px;
+}
+.sectionProject {
+  display: flex;
+  padding-left: 40px;
+  gap: 40px;
+  align-self: stretch;
+  flex-direction: column;
+
+  background: #E6EEFF;
+}
+.sectionProject h1 {
+  color: #403930;
+  font-family: Pretendard;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+}
+.sectionProject h2 {
+  color: #403930;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+}
+.sectionProjectLink {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+.sectionProjectLink a {
+  color: #405BA1;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
 }
