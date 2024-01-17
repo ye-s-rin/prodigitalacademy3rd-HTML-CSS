@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="navFont">Home</div>
+    <div class="navFont">Project</div>
+    <div class="navFont">Recommend</div>
+    <div class="navFont">Contact</div>
+  </nav>
+
+  <!-- Contact Me 아이콘 -->
+  <section>
+    <div class="contactIcon">Contact<br />Me</div>
+  </section>
+
+  <!-- Header -->
+  <header>
+    <div class="headerIntro">
+      <div class="badge">👋 안녕하세요!</div>
+      <h1>신입 프론트엔드 개발자. <br />
+        <div class="animateFont">Problem Solver.</div>
+        박유진입니다. <br />
+      </h1>
+      <div class="headerLinkBox">
+        <a class="headerLink1" href="https://github.com/yjp8842">Github Link</a>
+        <a class="headerLink2">Resume Link</a>
+      </div>
+    </div>
+    <div class="profileImg"></div>
+  </header>
+
+  <!-- 내 소개 섹션 -->
+  <section>
+    <div class="introContainer">
+      <div>
+        <h3>끊임없이 학습하고 <br />
+          꾸준히 성장하고자 하는 프론트엔드 개발자 박유진입니다.</h3>
+        <img src="./day2/assets/growth.png" alt="성장이미지">
+      </div>
+      <p>항상 새로운 기술에 열려 있으며, 문제 해결에 대한 열정으로 프로젝트에 참여합니다. <br />
+        꾸준한 성장과 협업을 통해 새로운 아이디어를 탐험하고 효과적인 솔루션을 찾는 것을 즐깁니다. <br />
+        강력한 분석 및 문제 해결 능력으로 효율적이고 확장 가능한 코드를 작성하는 것에 자부심을 가지고 있습니다. <br />
+        팀과 함께 협력하며, 사용자 중심의 솔루션을 만들기 위해 노력하고 있습니다. <br />
+        끊임없는 도전을 통해 성장하는 개발자로서 기여하고 싶습니다.</p>
+    </div>
+  </section>
+
+  <!-- 기술 스택 섹션 -->
+  <section>
+    <div class="techContainer">
+      <h4>기술 스택</h4>
+      <p>지금까지 활용해 본 기술입니다.</p>
+      <div class="techIcons">
+        <img src="./day2/assets/techIcons/react.svg" alt="react 아이콘">
+        <img src="./day2/assets/techIcons/javascript.svg" alt="javascript 아이콘">
+        <img src="./day2/assets/techIcons/typescript.svg" alt="typescript 아이콘">
+        <img src="./day2/assets/techIcons/python.svg" alt="python 아이콘">
+        <img src="./day2/assets/techIcons/django.svg" alt="django 아이콘">
+        <img src="./day2/assets/techIcons/redux.svg" alt="redux 아이콘">
+        <img src="./day2/assets/techIcons/recoil.svg" alt="recoil 아이콘">
+        <img src="./day2/assets/techIcons/reactquery.svg" alt="reactquery 아이콘">
+        <img src="./day2/assets/techIcons/tailwindcss.svg" alt="tailwindcss 아이콘">
+        <img src="./day2/assets/techIcons/styledcomponents.svg" alt="styledcomponents 아이콘">
+        <img src="./day2/assets/techIcons/mui.svg" alt="mui 아이콘">
+        <img src="./day2/assets/techIcons/figma.svg" alt="figma 아이콘">
+      </div>
+    </div>
+  </section>
+
+  <!-- 프로젝트 리스트 섹션 -->
+  <section class="projectList">
+    <h4>내 프로젝트</h4>
+    <div class="projectContainer kkiri">
+      <div class="projectIntro">
+        <p>끼리</p>
+        <span class="projectTech highlight">React-Native, React, Node.js, Android, Redux-toolkit</span>
+        <span>친구들과 특정 장소에서 만날 때 친구들이 잘 오고 있는지,
+          약속 시간에 늦는 친구들은 패널티를 받고,
+          제 시각에 온 사람들은 이득이 있었으면 좋겠다는 생각에서 시작된
+          ‘모임을 더 재미있고 간편하게’ 끼리 서비스입니다. </span>
+        <div class="projectLink">
+          <a href="https://www.notion.so/7a2cb01a528b416cb32f3fd3cec40e68?pvs=4">노션링크</a>
+          <a href="">깃허브링크</a>
+        </div>
+      </div>
+      <img class="projectImage" src="./day2/assets/kkiri.png" alt="프로젝트 이미지">
+    </div>
+    <div class="projectContainer biscuit">
+      <div class="projectIntro">
+        <p>비스킷</p>
+        <span class="projectTech highlight">TypeScript, React, Recoil, React-query</span>
+        <span>방대한 양의 기술 컨텐츠가 여러 플랫폼에 분산되어 어떤 콘텐츠를 볼 지 선택하기 어렵고,
+          알게 모르게 낭비되는 자투리 시간을 활용해서 기술 공부를 틈틈이 하고 싶어하는 사용자를 위해
+          사용자의 시간, 관심사, 기술 수준에 맞춰 Tech 컨텐츠를 추천해주는 서비스입니다.</span>
+        <div class="projectLink">
+          <a href="https://www.notion.so/2b88debae5fc4152b14f5316db140195?pvs=4">노션링크</a>
+          <a href="https://github.com/biscuit-today">깃허브링크</a>
+        </div>
+      </div>
+      <img class="projectImage" src="./day2/assets/biscuit.png" alt="프로젝트 이미지">
+    </div>
+    <div class="projectContainer maroommo">
+      <div class="projectIntro">
+        <p>마룸모</p>
+        <span class="projectTech highlight">React, Redux, Redux-Saga, Node</span>
+        <span>온라인으로 스터디를 하는 사람들이 많아지는데 비해 일정 관리, 스터디원들과의 소통,
+          자료 관리 등 관련된 활동을 모두 다른 플랫폼에서 하는 경우가 많아
+          이를 모두 하나의 플랫폼 안에서 사용하여 사용자의 편의성을 증대시킬 수 있는 서비스입니다.</span>
+        <div class="projectLink">
+          <a href="https://www.notion.so/1f0eb49820574a6a97d46d92b5b61937?pvs=4">노션링크</a>
+          <a href="https://github.com/yjp8842/Maroommo">깃허브링크</a>
+        </div>
+      </div>
+      <img class="projectImage" src="./day2/assets/maroommo.png" alt="프로젝트 이미지">
+    </div>
+  </section>
+
+  <section>
+    <div class="feedbackContainer">
+      <h4>함께 개발한 동료들의 평가</h4>
+      <div class="feedbackList">
+        <div class="feedbackBox">
+          <span>"OOO은 개발 역량 뿐 아니라 함께 일하기 너후 좋은 동료였습니다. 
+            항상 문제 해결에 적극적이고, 다른 팀원들의 문제에도 발벗고 도움을 주었습니다. 
+            OO과 함께하는 프로젝트는 항상 성과가 좋았습니다. 
+          </span>
+          <p>OO프로젝트 팀원, 민재</p>
+        </div>
+        <div class="feedbackBox">
+          <span>"OOO은 개발 역량 뿐 아니라 함께 일하기 너후 좋은 동료였습니다. 
+            항상 문제 해결에 적극적이고, 다른 팀원들의 문제에도 발벗고 도움을 주었습니다. 
+            OO과 함께하는 프로젝트는 항상 성과가 좋았습니다. 
+          </span>
+          <p>OO프로젝트 팀원, 민재</p>
+        </div>
+        <div class="feedbackBox">
+          <span>"OOO은 개발 역량 뿐 아니라 함께 일하기 너후 좋은 동료였습니다. 
+            항상 문제 해결에 적극적이고, 다른 팀원들의 문제에도 발벗고 도움을 주었습니다. 
+            OO과 함께하는 프로젝트는 항상 성과가 좋았습니다. 
+          </span>
+          <p>OO프로젝트 팀원, 민재</p>
+        </div>
+        <div class="feedbackBox">
+          <span>"OOO은 개발 역량 뿐 아니라 함께 일하기 너후 좋은 동료였습니다. 
+            항상 문제 해결에 적극적이고, 다른 팀원들의 문제에도 발벗고 도움을 주었습니다. 
+            OO과 함께하는 프로젝트는 항상 성과가 좋았습니다. 
+          </span>
+          <p>OO프로젝트 팀원, 민재</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="lastContent">
+      <p>꼼꼼함과 기술에 대한 집요함으로 어떤 문제든 <br/> 
+        해결해내는 프론트엔드 개발자가 되겠습니다. <br/>
+        감사합니다! 😊</p>
+    </div>
+    <div class="copyRight">
+      Copyright ©2024 All rights reserved
+    </div>
+  </footer>
+
+</body>
+</html>

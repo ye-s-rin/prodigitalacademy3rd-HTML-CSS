@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML/CSS</title>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>HTML tags</h2>
+  </header>
+  <nav>
+    <ul>
+      <li>text</li>
+      <li>button</li>
+      <li>input & select</li>
+      <li>code</li>
+      <li>canvas</li>
+      <li>table</li>
+      <li>summary</li>
+      <li>iframe</li>
+    </ul>
+  </nav>
+  <!-- text 태그 -->
+  <section>
+    <h3>| text tags</h3>
+    <h4>i 태그</h4>
+    <i>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</i> <br>
+    <h4>strong 태그</h4>
+    <strong>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</strong>
+    <h4>small 태그</h4>
+    <small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</small>
+  </section>
+  <!-- button 태그 -->
+  <section>
+    <h3>| button 태그</h3>
+    <button onclick="window.open('https://github.com/yjp8842/awesome-html-css');">클릭하세요</button>
+  </section>
+  <!-- input & select 태그 -->
+  <section>
+    <h3>| input & select 태그</h3>
+    <form action="">
+      <input type="text" placeholder="이름을 입력하세요" required> <br><br>
+    </form>
+    <form action="">
+      <input type="email" placeholder="이메일을 입력하세요" required> <br><br>
+    </form>
+    <input type="checkbox">
+    <input type="radio">
+    <input type="file"> <br><br>
+    <select name="옵션 선택" id="옵션 선택">
+      <option value="1">항목 1</option>
+      <option value="2">항목 2</option>
+      <option value="3">항목 3</option>
+    </select>
+  </section>
+  <!-- code 태그 -->
+  <section>
+    <h3>| code 태그</h3>
+    <p>github에 commit & push 하기</p>
+    <code>
+      git add . <br>
+      git commit -m "커밋 메시지" <br>
+      git push origin main
+    </code>
+  </section>
+  <!-- canvas 태그 -->
+  <section>
+    <h3>| canvas 태그</h3>
+    <canvas id="canvas" width="300" height="100"></canvas>
+    <script type="text/javascript">
+      var canvas = document.getElementById("canvas");
+      var ctx = canvas.getContext('2d');
+
+      ctx.fillStyle = 'rgb(0, 100, 100)';
+      ctx.fillRect(10, 10, 150, 80);
+    </script>
+  </section>
+  <!-- table 태그 -->
+  <section>
+    <h3>| table 태그</h3>
+    <table>
+      <tr>
+        <th>이름</th>
+        <th>내용</th>
+        <th>기타</th>
+      </tr>
+      <tr>
+        <td>프디아</td>
+        <td>3기 진행 중</td>
+        <td>성수 알파코 캠퍼스</td>
+      </tr>
+    </table>
+  </section>
+  <br>
+  <!-- Summary 태그 -->
+  <section>
+    <h3>| Summary 태그</h3>
+    <details>
+      <summary>What is Lorem Ipsum?</summary>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </details>
+  </section>
+  <!-- iframe 태그 -->
+  <section>
+    <h3>| iframe 태그</h3>
+    <iframe src="https://images.unsplash.com/photo-1705159904411-915634d47814?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="500" height="700"></iframe>
+  </section>
+</body>
+</html>
