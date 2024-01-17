@@ -176,13 +176,7 @@ header h1 {
 .introContainer img {
   width: fit-content;
   height: fit-content;
-  margin-left: 70px;
-  
-  position: absolute;
-}
-
-.posRelative {
-  position: relative;
+  /* margin-left: 70px; */
 }
 
 .introContainer h3 {
