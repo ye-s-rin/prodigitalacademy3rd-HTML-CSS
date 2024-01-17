@@ -52,7 +52,7 @@ header {
   display: flex;
   padding: 100px 220px;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 10px;
 }
@@ -61,6 +61,9 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  align-items: center;
+  text-align: center;
 }
 
 .headerIntro h1 {
@@ -150,15 +153,20 @@ header h1 {
 .introContainer {
   display: flex;
   height: fit-content;
-  padding: 60px 220px;
+  /* padding: 60px 220px; */
   flex-direction: column;
   gap: 10px;
   background: var(--main-bg-gradient);
+
+  padding: 10%;
+  align-items: center;
+  text-align: center;
 }
 
 .introContainer div {
   display: flex;
   align-items: center;
+  width: fit-content;
 }
 
 .introContainer img {
@@ -179,6 +187,8 @@ header h1 {
   font-size: 20px;
   font-weight: 400;
   line-height: 150%; /* 30px */
+  
+  width: fit-content;
 }
 
 .techContainer {
@@ -416,6 +426,10 @@ header h1 {
   font-size: 36px;
   font-weight: 600;
   line-height: 150%; /* 60px */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .copyRight {
