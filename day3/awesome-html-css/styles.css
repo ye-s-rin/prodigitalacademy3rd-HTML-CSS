@@ -209,6 +209,8 @@ header h1 {
   gap: 50px;
   padding: 40px 300px;
   flex-wrap: wrap;
+
+  max-width: 500px;
 }
 
 .techIcons img {
@@ -235,6 +237,7 @@ header h1 {
 
 .projectContainer {
   /* height: 420px; */
+  min-height: 420px;
   min-width: fit-content;
   border-radius: 24px;
   /* background: var(--main-bg-gradient); */
@@ -257,26 +260,31 @@ header h1 {
   flex: 1 0 0;
 
   padding-bottom: 24px;
+}
 
-  /* overflow: hidden;
-  white-space: nowrap;
+.projectIntro span {
+  overflow: hidden;
+  white-space: normal;
   text-overflow: ellipsis;
-  word-break: break-all; */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  word-break: keep-all;
 }
 
 .kkiri {
   /* background-color: #e5ff7350; */
-  background-image: linear-gradient(to bottom, #DCF861 53%, #e5ff7350 53%);
+  background-image: linear-gradient(to bottom, #DCF861 55%, #e5ff7350 55%);
 }
 
 .biscuit {
   /* background: var(--main-bg-gradient); */
-  background-image: linear-gradient(to bottom, white 53%, rgba(189, 210, 255, 0.40) 1.72%, rgba(116, 224, 215, 0.40) 158.93%);
+  background-image: linear-gradient(to bottom, white 55%, rgba(189, 210, 255, 0.40) 1.72%, rgba(116, 224, 215, 0.40) 158.93%);
 }
 
 .maroommo {
   /* background-color: #ece5cc; */
-  background-image: linear-gradient(to bottom, #FAF6E9 54%, #ece5cc 54%);
+  background-image: linear-gradient(to bottom, #FAF6E9 55%, #ece5cc 55%);
 }
 
 .projectIntro p {
@@ -366,6 +374,8 @@ header h1 {
   max-width: calc(100% - 260px);
   flex-wrap: nowrap;
   overflow-x: scroll;
+
+  flex-direction: column;
 }
 
 .feedbackBox {
