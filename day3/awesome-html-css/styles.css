@@ -357,6 +357,8 @@ header h1 {
   border-radius: 50px;
   border: 10px solid #BBD5F7;
   background: linear-gradient(98deg, #BED3FF -10.83%, #D2F3E5 51.79%, #FFEBD9 110.76%);
+
+  display: none;
 }
 
 .feedbackContainer {
