@@ -74,6 +74,8 @@ header {
   border-radius: 500px;
   border: 10px solid #BCF2F9;
   background: url('./day2/assets/profile.jpeg'), lightgray 50% / cover no-repeat;
+
+  display: none;
 }
 
 .badge {
@@ -232,17 +234,18 @@ header h1 {
 }
 
 .projectContainer {
-  height: 420px;
+  /* height: 420px; */
   min-width: fit-content;
   border-radius: 24px;
   /* background: var(--main-bg-gradient); */
   display: flex;
-  padding-left: 60px;
+  /* padding-left: 60px; */
   align-items: center;
   justify-content: space-between;
-  gap: 55px;
+  /* gap: 55px; */
   box-shadow: 8px 7px 5px 5px #33333330;
   
+  flex-direction: column-reverse;
 }
 
 .projectIntro {
@@ -252,6 +255,8 @@ header h1 {
   align-items: flex-start;
   gap: 24px;
   flex: 1 0 0;
+
+  padding-bottom: 24px;
 }
 
 .kkiri {
