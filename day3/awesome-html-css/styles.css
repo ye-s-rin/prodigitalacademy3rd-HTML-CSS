@@ -32,14 +32,15 @@ body {
 
 nav {
   display: flex;
-  height: 100px;
-  padding: 20px 200px 0px 220px;
+  height: fit-content;
+  /* padding: 20px 200px 0px 220px; */
   flex-direction: row;
-  align-items: flex-start;
-  gap: 40px;
+  /* align-items: flex-start; */
+  gap: 5%;
   
   justify-content: center;
   align-items: center;
+  /* padding: 1% 10% 1% 1%; */
 }
 
 .navFont {
@@ -176,6 +177,12 @@ header h1 {
   width: fit-content;
   height: fit-content;
   margin-left: 70px;
+  
+  position: absolute;
+}
+
+.posRelative {
+  position: relative;
 }
 
 .introContainer h3 {
