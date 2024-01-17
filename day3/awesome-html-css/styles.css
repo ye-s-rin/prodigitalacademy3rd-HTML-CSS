@@ -257,11 +257,16 @@ header h1 {
   flex: 1 0 0;
 
   padding-bottom: 24px;
+
+  /* overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: break-all; */
 }
 
 .kkiri {
   /* background-color: #e5ff7350; */
-  background-image: linear-gradient(to bottom, #DCF861 54%, #e5ff7350 54%);
+  background-image: linear-gradient(to bottom, #DCF861 53%, #e5ff7350 53%);
 }
 
 .biscuit {
@@ -322,6 +327,9 @@ header h1 {
   /* border-top-right-radius: 24px; */
   /* border-bottom-right-radius: 24px; */
   flex: 1.3 0 0;
+
+  border-top-right-radius: 24px;
+  border-top-left-radius: 24px;
 }
 
 .contactIcon {
