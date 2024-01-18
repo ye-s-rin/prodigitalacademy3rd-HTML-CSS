@@ -278,15 +278,15 @@ header h1 {
 }
 
 .onair {
-  background-image: linear-gradient(to bottom, white 41%, #DFE9F7 41%);
+  background-image: linear-gradient(to bottom, white 43%, #DFE9F7 44%);
 }
 
 .nia3d {
-  background-image: linear-gradient(to bottom, #251812 41%, #DEDBE2 41%);
+  background-image: linear-gradient(to bottom, #251812 43%, #DEDBE2 44%);
 }
 
 .ds {
-  background-image: linear-gradient(to bottom, #E0E0E0 41%, white 41%);
+  background-image: linear-gradient(to bottom, #E0E0E0 43%, white 44%);
 }
 
 .projectIntro p {
