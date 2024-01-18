@@ -419,6 +419,8 @@ header h1 {
 .feedbackBox p {
   font-weight: 700;
   text-align: center;
+
+  width: fit-content;
 }
 
 .lastContent {
