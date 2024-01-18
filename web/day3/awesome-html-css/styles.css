@@ -1,6 +1,10 @@
 :root {
   --main-bg-gradient: linear-gradient(96deg, rgba(189, 210, 255, 0.40) 1.72%, rgba(116, 224, 215, 0.40) 158.93%);
   --main-font-gradient: linear-gradient(99deg, #001F8F 3.58%, rgba(36, 255, 203, 0.50) 90.34%);
+
+  --font-size-big: 32px;
+  --font-size-medium: 20px;
+  --font-size-small: 10px;
 }
 
 ::-webkit-scrollbar {
@@ -34,16 +38,17 @@ nav {
   display: flex;
   height: fit-content;
   flex-direction: row;
-  gap: 5%;
+  gap: 10%;
   
   justify-content: center;
   align-items: center;
+  padding: 1% 5%;
 }
 
 .navFont {
   color: #403930;
   font-family: 'Rubik', sans-serif !important;
-  font-size: 20px;
+  font-size: var(--font-size-small);
   font-style: normal;
   font-weight: 600;
   line-height: 150%; /* 30px */
@@ -51,7 +56,7 @@ nav {
 
 header {
   display: flex;
-  padding: 100px 220px;
+  padding: 5%;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -84,16 +89,16 @@ header {
 
 .badge {
   width: fit-content;
-  padding: 12px 24px;
+  padding: 1% 3% 2% 1%;
   border-radius: 10px;
   background: #E6EEFF;
-  font-size: 20px;
+  font-size: var(--font-size-small);
   font-weight: 500;
 }
 
 header h1 {
   color: #333;
-  font-size: 64px;
+  font-size: var(--font-size-big);
   font-weight: 600;
   line-height: 125%; /* 80px */
   letter-spacing: -1.28px;
@@ -128,15 +133,18 @@ header h1 {
 .headerLinkBox {
   display: flex;
   gap: 16px;
+  min-width: 350px;
+
+  justify-content: center;
 }
 
 .headerLinkBox a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 24px 80px;
+  padding: 2% 5% 2% 5%;
   border-radius: 16px;
-  font-size: 24px;
+  font-size: var(--font-size-medium);
   font-weight: 500;
 }
 
@@ -158,7 +166,7 @@ header h1 {
   gap: 10px;
   background: var(--main-bg-gradient);
 
-  padding: 10%;
+  padding: 1% 0 5%;
   align-items: center;
   text-align: center;
 }
@@ -175,7 +183,7 @@ header h1 {
 }
 
 .introContainer h3 {
-  font-size: 40px;
+  font-size: var(--font-size-big);
   font-weight: 900;
   line-height: 125%; /* 50px */
   letter-spacing: -0.8px;
@@ -183,16 +191,16 @@ header h1 {
 
 .introContainer p {
   color: #333;
-  font-size: 20px;
+  font-size: var(--font-size-medium);
   font-weight: 400;
   line-height: 150%; /* 30px */
   
-  width: fit-content;
+  padding: 0 10% 0 10%;
 }
 
 .techContainer {
   display: flex;
-  padding: 70px 120px;
+  padding: 1% 0 5%;
   flex-direction: column;
   align-items: center;
   gap: 10px;
@@ -202,13 +210,13 @@ header h1 {
 }
 
 .techContainer h4 {
-  font-size: 40px;
+  font-size: var(--font-size-big);
   font-weight: 900;
   margin-bottom: 10px;
 }
 
 .techContainer p {
-  font-size: 20px;
+  font-size: var(--font-size-medium);
   font-weight: 400;
 }
 
@@ -216,15 +224,15 @@ header h1 {
   display: flex;
   justify-content: center;
   gap: 50px;
-  padding: 40px 300px;
+  padding: 1% 5% 0 5%;
   flex-wrap: wrap;
 
-  max-width: 500px;
+  max-width: 375px;
 }
 
 .techIcons img {
-  width: 80px;
-  height: 80px;
+  width: 40px;
+  height: 40px;
 }
 
 .projectList {
@@ -235,19 +243,20 @@ header h1 {
   flex: 1 0 0;
   background: rgba(244, 244, 244, 0.50);
 
-  padding: 10% 30%;
+  padding: 1% 5%;
 }
 
 .projectList h4 {
-  font-size: 40px;
+  font-size: var(--font-size-big);
   font-weight: 600;
   line-height: 125%; /* 50px */
   letter-spacing: -0.8px;
+
+  padding-left: 10%;
 }
 
 .projectContainer {
   min-height: 420px;
-  min-width: fit-content;
   border-radius: 24px;
   display: flex;
   align-items: center;
@@ -259,13 +268,12 @@ header h1 {
 
 .projectIntro {
   display: flex;
-  width: 437px;
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
   flex: 1 0 0;
 
-  padding-bottom: 24px;
+  padding-bottom: 2%;
 }
 
 .projectIntro span {
@@ -279,20 +287,20 @@ header h1 {
 }
 
 .onair {
-  background-image: linear-gradient(to bottom, white 54%, #DFE9F7 55%);
+  background-image: linear-gradient(to bottom, white 43%, #DFE9F7 44%);
 }
 
 .nia3d {
-  background-image: linear-gradient(to bottom, #251812 54%, #DEDBE2 55%);
+  background-image: linear-gradient(to bottom, #251812 43%, #DEDBE2 44%);
 }
 
 .ds {
-  background-image: linear-gradient(to bottom, #E0E0E0 54%, white 55%);
+  background-image: linear-gradient(to bottom, #E0E0E0 51%, white 52%);
 }
 
 .projectIntro p {
   color: #403930;
-  font-size: 35px;
+  font-size: var(--font-size-big);
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -308,6 +316,7 @@ header h1 {
 
 .highlight {
   position: relative;
+  font-size: var(--font-size-medium);
 }
 
 .highlight::after {
@@ -332,8 +341,8 @@ header h1 {
 }
 
 .projectImage {
-  width: 600px;
-  height: 420px;
+  width: 375px;
+  max-height: 420px;
   object-fit: fill;
   flex: 1.3 0 0;
 
@@ -353,7 +362,7 @@ header h1 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 20px;
+  font-size: var(--font-size-medium);
   font-weight: 700;
   border-radius: 50px;
   border: 10px solid #BBD5F7;
@@ -368,7 +377,7 @@ header h1 {
   justify-content: center;
   align-items: center;
   
-  padding: 10% 30%;
+  padding: 5%;
 }
 
 .feedbackList {
@@ -378,14 +387,14 @@ header h1 {
   overflow-x: scroll;
 
   flex-direction: column;
-  padding: 10% 5%;
+  padding: 1% 0 2%;
 }
 
 .feedbackBox {
   flex: 0 0 auto;
   display: flex;
-  width: 420px;
-  padding: 40px;
+  /* max-width: 370px; */
+  padding: 5%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -396,7 +405,7 @@ header h1 {
 }
 
 .feedbackContainer h4 {
-  font-size: 36px;
+  font-size: var(--font-size-big);
   font-weight: 700;
   line-height: 125%;
 }
@@ -411,10 +420,10 @@ header h1 {
 }
 
 .lastContent {
-  padding: 64px 230px;
+  padding: 1%;
   background: var(--main-bg-gradient);
   color: #403930;
-  font-size: 36px;
+  font-size: var(--font-size-big);
   font-weight: 600;
   line-height: 150%; /* 60px */
 
@@ -428,7 +437,7 @@ header h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 54px 570px;
-  font-size: 14px;
+  padding: 1% 0 1%;
+  font-size: var(--font-size-small);
   font-weight: 400;
 }
