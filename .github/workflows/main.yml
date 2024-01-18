@@ -1,0 +1,25 @@
+name: Deploy to S3 # 워크플로우의 이름
+
+on: # 트리거
+  push: # push가 되면
+    branches: # main 브랜치에서
+      - main
+
+jobs: # 수행할 내용
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository # 첫번째 (보통은 패키지 인스톨, 빌드 단계 필요) 
+        uses: actions/checkout@v2 # 이미 존재하는 워크플로우
+
+      - name: Configure AWS Credentials # 두번째 
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ap-northeast-2 # AWS S3 버킷이 위치한 리전으로 변경
+
+      - name: Upload to S3 # 세번째 (배포)
+        run: |
+          aws s3 sync web s3://shinhan-my-portolio/ # from 폴더 경로 to s3 경로 
