@@ -344,7 +344,7 @@ header h1 {
 }
 
 .projectImage {
-  max-width: 375px;
+  width: device-width;
   height: 420px;
   object-fit: fill;
   flex: 1.3 0 0;
