@@ -286,19 +286,19 @@ header h1 {
   word-break: keep-all;
 }
 
-.kkiri {
+.onair {
   /* background-color: #e5ff7350; */
-  background-image: linear-gradient(to bottom, #DCF861 55%, #e5ff7350 55%);
+  background-image: linear-gradient(to bottom, white 54%, #DFE9F7 55%);
 }
 
-.biscuit {
+.nia3d {
   /* background: var(--main-bg-gradient); */
-  background-image: linear-gradient(to bottom, white 55%, rgba(189, 210, 255, 0.40) 1.72%, rgba(116, 224, 215, 0.40) 158.93%);
+  background-image: linear-gradient(to bottom, #251812 54%, #DEDBE2 55%);
 }
 
-.maroommo {
+.ds {
   /* background-color: #ece5cc; */
-  background-image: linear-gradient(to bottom, #FAF6E9 55%, #ece5cc 55%);
+  background-image: linear-gradient(to bottom, #E0E0E0 54%, white 55%);
 }
 
 .projectIntro p {

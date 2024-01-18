@@ -46,7 +46,7 @@
   <header>
     <div class="headerIntro">
       <div class="badge">👋 안녕하세요!</div>
-      <h1>신입 프론트엔드 개발자. <br />
+      <h1>신입 백엔드 개발자. <br />
         <div class="animateFont">Problem Solver.</div>
         박예린입니다. <br />
       </h1>
@@ -64,8 +64,8 @@
       <div>
         <h3>
           <img src="./day2/assets/growth.png" alt="성장이미지"/><br />
-          끊임없이 학습하고 <br />
-          꾸준히 성장하고자 하는 프론트엔드 개발자 박예린입니다.</h3>
+          운영까지 생각하고 <br />
+          TDD를 실현하는 백엔드 개발자 박예린입니다.</h3>
       </div>
       <p>항상 새로운 기술에 열려 있으며, 문제 해결에 대한 열정으로 프로젝트에 참여합니다. <br />
         꾸준한 성장과 협업을 통해 새로운 아이디어를 탐험하고 효과적인 솔루션을 찾는 것을 즐깁니다. <br />
@@ -99,49 +99,55 @@
 
   <!-- 프로젝트 리스트 섹션 -->
   <section class="projectList">
-    <h4>유진's 프로젝트</h4>
-    <div class="projectContainer kkiri">
+    <h4>내 프로젝트</h4>
+    <div class="projectContainer onair">
       <div class="projectIntro">
-        <p>끼리</p>
-        <span class="projectTech highlight">React-Native, React, Node.js, Android, Redux-toolkit</span>
-        <span>친구들과 특정 장소에서 만날 때 친구들이 잘 오고 있는지,
-          약속 시간에 늦는 친구들은 패널티를 받고,
-          제 시각에 온 사람들은 이득이 있었으면 좋겠다는 생각에서 시작된
-          ‘모임을 더 재미있고 간편하게’ 끼리 서비스입니다. </span>
+        <p>항공권 예약 서비스 웹사이트</p>
+        <span class="projectTech highlight">Kotlin, HTML, CSS, Javascript, JSP</span>
+        <span>사용자에게 항공기 및 운항 정보를 제공하고, 편리한 항공기 예약 서비스를 제공하는 항공예매 시스템을 제작했습니다. 
+          이를 위해 한국 공항 공사에서 제공하는 open API 의 항공기 운항 정보를 이용합니다. 
+          프로젝트 진행을 위해 주기적인 스프린트 회의를 진행하며, 요구사항분석, 상세 설계, 구현의 단계를 거쳐 웹 사이트 결과물을 도출합니다. 
+          예약 기능을 중심으로 로그인, 운항정보, 예약 안내 등의 기능을 제공합니다.
+          UML 다이어그램과 디자인 패턴을 활용하여 프로젝트를 진행했습니다.</span>
         <div class="projectLink">
-          <a href="https://www.notion.so/7a2cb01a528b416cb32f3fd3cec40e68?pvs=4">노션링크</a>
-          <a href="">깃허브링크</a>
+          <a href="https://youtu.be/Ul9JV5jZrJ0?si=VB2GPYDwjOrh3WmQ">데모 영상</a>
+          <a href="https://github.com/ye-s-rin/OnAir.git">깃허브</a>
         </div>
       </div>
-      <img class="projectImage" src="./day2/assets/kkiri.png" alt="프로젝트 이미지">
+      <img class="projectImage" src="./day2/assets/onair.png" alt="프로젝트 이미지">
     </div>
-    <div class="projectContainer biscuit">
+    <div class="projectContainer nia3d">
       <div class="projectIntro">
-        <p>비스킷</p>
-        <span class="projectTech highlight">TypeScript, React, Recoil, React-query</span>
-        <span>방대한 양의 기술 컨텐츠가 여러 플랫폼에 분산되어 어떤 콘텐츠를 볼 지 선택하기 어렵고,
-          알게 모르게 낭비되는 자투리 시간을 활용해서 기술 공부를 틈틈이 하고 싶어하는 사용자를 위해
-          사용자의 시간, 관심사, 기술 수준에 맞춰 Tech 컨텐츠를 추천해주는 서비스입니다.</span>
+        <p>3D 객체 인식 딥러닝 프로젝트</p>
+        <span class="projectTech highlight">Python, Point Cloud, CloudCompare</span>
+        <span>Point Cloud 3D 객체를 딥러닝하여 분류하는 딥러닝 프로젝트에 참여했습니다.
+          SamsungLabs의 FCAF3D에 DTaaS의 데이터셋을 학습켰습니다.
+          ISTQB 자격증을 취득하며 얻은 지식을 토대로 전처리 코드를 정적분석하여 에러를 해결했습니다.
+          데이터 부족으로 인한 overfitting을 해결하기 위해 CloudCompare를 통해 데이터에 라벨링했습니다.
+          이후 연계 해커톤에서 3D 데이터를 활용한 경찰 수사 방안을 발표하여 수상했습니다.
+        </span>
         <div class="projectLink">
-          <a href="https://www.notion.so/2b88debae5fc4152b14f5316db140195?pvs=4">노션링크</a>
-          <a href="https://github.com/biscuit-today">깃허브링크</a>
+          <a href="https://github.com/SamsungLabs/fcaf3d.git">FCAF3D</a>
+          <a href="https://github.com/ye-s-rin/FCAF3D_NIA3D.git">깃허브</a>
         </div>
       </div>
-      <img class="projectImage" src="./day2/assets/biscuit.png" alt="프로젝트 이미지">
+      <img class="projectImage" src="./day2/assets/nia3d.jpg" alt="프로젝트 이미지">
     </div>
-    <div class="projectContainer maroommo">
+    <div class="projectContainer ds">
       <div class="projectIntro">
-        <p>마룸모</p>
-        <span class="projectTech highlight">React, Redux, Redux-Saga, Node</span>
-        <span>온라인으로 스터디를 하는 사람들이 많아지는데 비해 일정 관리, 스터디원들과의 소통,
-          자료 관리 등 관련된 활동을 모두 다른 플랫폼에서 하는 경우가 많아
-          이를 모두 하나의 플랫폼 안에서 사용하여 사용자의 편의성을 증대시킬 수 있는 서비스입니다.</span>
+        <p>신한DS 인턴</p>
+        <span class="projectTech highlight" style="display: none"></span>
+        <span>외환/자금 업무와 SWIFT 신전문 전환 프로젝트를 담당했습니다.
+          Proframe과 pro-C를 사용하여 서비스를 개발하고 WebSquare와 JavaScript 및 HTML5를 활용하여 단말화면을 개발했습니다.
+          서비스 및 단말화면을 구현하여 로컬, 개발, 테스트 단계 후에 운영 서버에 반영했습니다.
+          데이터베이스 변경시 현지 직원의 의도를 우선하되 META 시스템 규칙을 준수했습니다.
+          외환 송금, 수출입, FX 거래, 머니마켓 거래의 프로세스를 단말화면, 데이터, 회계 변화를 중심으로 도식화하여 발표했습니다.</span>
         <div class="projectLink">
-          <a href="https://www.notion.so/1f0eb49820574a6a97d46d92b5b61937?pvs=4">노션링크</a>
-          <a href="https://github.com/yjp8842/Maroommo">깃허브링크</a>
+          <a href="" style="display: none">노션</a>
+          <a href="" style="display: none">깃허브</a>
         </div>
       </div>
-      <img class="projectImage" src="./day2/assets/maroommo.png" alt="프로젝트 이미지">
+      <img class="projectImage" src="./day2/assets/ds.png" alt="프로젝트 이미지">
     </div>
   </section>
 
@@ -184,7 +190,7 @@
   <footer>
     <div class="lastContent">
       <p>꼼꼼함과 기술에 대한 집요함으로 어떤 문제든 <br/> 
-        해결해내는 프론트엔드 개발자가 되겠습니다. <br/>
+        해결해내는 금융 IT 개발자가 되겠습니다. <br/>
         감사합니다! 😊</p>
     </div>
     <div class="copyRight">
