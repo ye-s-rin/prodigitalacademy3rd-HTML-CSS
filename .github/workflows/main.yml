@@ -23,3 +23,6 @@ jobs: # 수행할 내용
       - name: Upload to S3 # 세번째 (배포)
         run: |
           aws s3 sync web/day3/awesome-html-css s3://yerin-portfolio/ # from 폴더 경로 to s3 경로
+
+      - name: Invalidate cloudfront
+        run: aws cloudfront create-invalidation --distribution-id E1E4VREMVFEVMX --paths /* # Cloudfront ID로 변경
